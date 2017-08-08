@@ -1,0 +1,48 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 51px;
+  padding-bottom: 51px;
+}
+
+/* Header */
+.navbar{
+	border-radius: 0;
+}
+
+/* Adust nested columns */
+.nested-col{
+	padding: 0;
+}
+
+.full-width{
+	width: 100%;
+}
+
+.title{
+	font-weight: bold;
+	/*margin-right: 10px;*/
+}
+
+textarea.form-control {
+    max-width: 100%;
+}
+
+/* Footer */
+footer {
+	border-top: 1px solid #ccc;
+	background-color: #e7e7e7;
+	line-height: 50px;
+}
+
+@media (max-width: 991px) { 
+	.form-control{
+		margin-bottom: 15px;
+	}
+	.form-group{
+		margin-bottom: 0;
+	}
+
+	.extra-margin{
+		margin-bottom: 15px;
+	}
+}

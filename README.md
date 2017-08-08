@@ -27,3 +27,5 @@ $ php artisan migrate
 $ php artisan serve
 ```
 and the server will start, it usually starts at : http://127.0.0.1:8000
+
+I have written the following classes especially for this task, you can check them out [here](https://github.com/mareimorsy/delodi-task/tree/master/app/MareiClasses/CountryAssets)

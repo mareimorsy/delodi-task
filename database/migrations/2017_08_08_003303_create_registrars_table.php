@@ -25,7 +25,7 @@ class CreateRegistrarsTable extends Migration
             $table->integer('graduation_year');
             $table->integer('profession');
             $table->boolean('specialization');
-            $table->text('notes');
+            $table->text('notes')->nullable();;
             $table->timestamps();
         });
     }

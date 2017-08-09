@@ -42,7 +42,7 @@ class CountryAssets{
 	/**
 	 * Get the first item in items array.
 	 *
-	 * @return string
+	 * @return mixed
 	 */
 	public static function first(){
 		// if items array is not empty return the first item, otherwise return null.
@@ -52,7 +52,7 @@ class CountryAssets{
 	/**
 	 * Get the last item in items array.
 	 *
-	 * @return string
+	 * @return mixed
 	 */
 	public static function last(){
 		// hold the number of items.
